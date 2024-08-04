@@ -1,0 +1,3 @@
+[submodule "go-direnv"]
+	path = go-direnv
+	url = git@github.com:direnv/direnv.git

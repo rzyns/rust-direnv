@@ -1,0 +1,9 @@
+[tools]
+go = "1.22"
+"cargo:ubi" = "latest"
+
+[settings]
+status.missing_tools = "always"
+status.show_env = true
+status.show_tools = true
+experimental = true

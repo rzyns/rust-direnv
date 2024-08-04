@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{ "path": "direnv" },
+		{ "path": "go-direnv" },
+		{ "path": "vscode-direnv" }
+	],
+	"settings": {
+		"terminal.integrated.useWslProfiles": true,
+		"remote.WSL.useShellEnvironment": false,
+	}
+}

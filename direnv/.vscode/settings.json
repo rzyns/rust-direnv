@@ -1,0 +1,5 @@
+{
+    "files.readonlyInclude": {
+        "**/.cargo/registry/src/**/*.rs": true
+    }
+}
