@@ -2,7 +2,7 @@
 	"folders": [
 		{ "path": "direnv" },
 		{ "path": "go-direnv" },
-		{ "path": "vscode-direnv" }
+		{ "path": "vscode-env" }
 	],
 	"settings": {
 		"terminal.integrated.useWslProfiles": true,
