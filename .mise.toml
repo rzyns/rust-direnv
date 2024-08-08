@@ -1,6 +1,7 @@
 [tools]
 go = "1.22"
 "cargo:ubi" = "latest"
+v = "latest"
 
 [settings]
 status.missing_tools = "always"

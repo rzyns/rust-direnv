@@ -1,5 +1,4 @@
 use std::process;
-use std::env;
 
 fn main() {
     process::Command::new("ls")

@@ -2,10 +2,12 @@
 	"folders": [
 		{ "path": "direnv" },
 		{ "path": "go-direnv" },
+		{ "path": "v-direnv" },
 		{ "path": "vscode-env" }
 	],
 	"settings": {
 		"terminal.integrated.useWslProfiles": true,
 		"remote.WSL.useShellEnvironment": false,
+		"go.goroot": "~/.local/share/mise/installs/go/1.22.5"
 	}
 }
