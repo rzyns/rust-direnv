@@ -1,5 +1,12 @@
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+    "postCreateCommand": "bash -ic .devcontainer/setup.sh",
+
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": "latest"
+    },
+
     "customizations": {
         "codespaces": {
             "repositories": {

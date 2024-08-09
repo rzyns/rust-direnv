@@ -1,5 +1,6 @@
 use std::env;
 
+#[derive(Debug)]
 pub struct EnvVars(Vec<(String, String)>);
 
 pub fn get_env() -> EnvVars {
