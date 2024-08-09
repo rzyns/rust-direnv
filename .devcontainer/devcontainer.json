@@ -23,6 +23,9 @@
             "repositories": {
                 "direnv/direnv": {
                     "permissions": "read-all"
+                },
+                "rzyns/potenv": {
+                    "permissions": "write-all"
                 }
             }
         }
