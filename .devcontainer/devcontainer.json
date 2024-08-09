@@ -4,7 +4,8 @@
     "postCreateCommand": "bash -ic .devcontainer/setup.sh",
 
     "features": {
-        "ghcr.io/devcontainers/features/rust:1": "latest"
+        "ghcr.io/devcontainers/features/rust:1": "latest",
+        "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": "latest"
     },
 
     "customizations": {
