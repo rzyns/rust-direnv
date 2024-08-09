@@ -1,7 +1,9 @@
-use std::process;
+pub mod gzenv;
+pub mod dotenv;
+pub mod env;
 
+use std::process;
 use env::get_env;
-mod env;
 
 fn main() {
     process::Command::new("ls")

@@ -2,6 +2,7 @@
 	"folders": [
 		{ "path": "direnv" },
 		{ "path": "go-direnv" },
+		{ "path": "potenv" },
 		{ "path": "v-direnv" },
 		{ "path": "vscode-env" }
 	],

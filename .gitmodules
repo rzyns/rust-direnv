@@ -1,3 +1,6 @@
 [submodule "go-direnv"]
 	path = go-direnv
 	url = https://github.com/direnv/direnv.git
+[submodule "potenv"]
+	path = potenv
+	url = https://github.com/rzyns/potenv.git
