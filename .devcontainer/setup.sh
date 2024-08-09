@@ -1,12 +1,4 @@
 #!/usr/bin/env bash
-curl https://mise.run | sh
-
-echo "eval \"\$(/home/codespace/.local/bin/mise activate bash)\"" >> ~/.bashrc
-
+sudo BINDIR=/usr/local/bin bash -ic "$(curl -fsLS get.chezmoi.io)"
+chezmoi init --apply "rzyns"
 mise install -y
-
-eval "$(mise activate bash)"
-
-mise use -y -g chezmoi
-
-chezmoi init --apply
